@@ -1,8 +1,8 @@
 # ValidateCitizenshipNumber
 
-Türkiye Cumhuriyeti Kimlik Numarası Doğrulama servis entegrasyonu. 
-.Net 5.0 ile hazırlanmıştır. 
-**https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx** adresindeki web servis kullanılarak oluşturulmuştur.
+Türkiye Cumhuriyeti Kimlik Numarası Doğrulama servis entegrasyonu. <br />
+.Net 5.0 ile hazırlanmıştır. <br />
+**https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx** adresindeki web servis kullanılarak oluşturulmuştur.<br />
 
 Request : 
 {
@@ -12,9 +12,9 @@ Request :
   "tcKimlikNo": 0
 }
 
-Response :
-(200) true/false
-(400) name is required
-(400) surname is required
-(400) birthyear is required
-(400) citizenshipnumber is required
+Response :<br />
+(200) true/false<br />
+(400) name is required<br />
+(400) surname is required<br />
+(400) birthyear is required<br />
+(400) citizenshipnumber is required<br />
